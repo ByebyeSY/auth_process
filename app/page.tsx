@@ -1,9 +1,11 @@
 import styles from './page.module.scss'
 
-export default function Home() {
+const HomePage = () => {
   return (
     <main className={styles.main}>
       <h1>Hello world</h1>
     </main>
   )
 }
+
+export default HomePage
