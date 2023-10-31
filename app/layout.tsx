@@ -1,6 +1,6 @@
-import type { Metadata } from 'next'
-import { Figtree } from 'next/font/google'
-import './globals.scss'
+import type { Metadata } from 'next';
+import { Figtree } from 'next/font/google';
+import './globals.scss';
 
 const openSans = Figtree({ subsets: ['latin'] });
 
@@ -16,7 +16,9 @@ const RootLayout = ({
 }) => {
   return (
     <html lang="en">
-      <body className={openSans.className}>{children}</body>
+      <body className={openSans.className}>
+        {children}
+        </body>
     </html>
   )
 }

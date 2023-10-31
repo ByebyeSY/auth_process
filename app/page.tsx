@@ -1,9 +1,15 @@
-import styles from './page.module.scss'
+import Image from 'next/image'
+import './styles.scss'
+import onePieceImage from '@/public/images/arabasta-hands-up.jpg'
+import Navbar from '@/components/Navbar'
 
 const HomePage = () => {
   return (
-    <main className={styles.main}>
-      <h1>Hello world</h1>
+    <main className='home-container'>
+      <Navbar/>
+
+      <h1 className='home-title'><q>&nbsp;The One piece exists!!!&nbsp;</q></h1>
+      
     </main>
   )
 }
