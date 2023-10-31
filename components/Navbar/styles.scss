@@ -1,6 +1,7 @@
 .navbar-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     padding: 16px 32px;
 
@@ -8,5 +9,15 @@
     box-shadow: 11px 7px 34px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 11px 7px 34px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: 11px 7px 34px -4px rgba(0,0,0,0.75);
+
+    .navbar-actions{
+        display: flex;
+        gap: 16px;
+
+        .signIn-btn, .signUp-btn{
+            width: 120px;
+            text-transform: none;
+        }
+    }
 
 }
